@@ -52,7 +52,7 @@ The service could send response with the following status:
 - 400 - Bad Request 
 - 500 - Internal Error
 
-You can use Postman or Curl for requesting the endpoints
+You can use Postman or Curl for requesting the endpoints.\
 Below are Curl commands for all the operations.
 
 `curl -X POST http://localhost:3000/api/coordinates/landing -H 'Content-Type: application/json' -d '{ "data": { "x":100, "y":400, "direction": "SOUTH" } }'`
