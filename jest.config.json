@@ -1,0 +1,6 @@
+{
+    "testRegex": "((\\.|/*.)(spec))\\.js?$",
+    "moduleFileExtensions": ["js", "json", "ts"],
+
+    "testEnvironment": "node"
+}
